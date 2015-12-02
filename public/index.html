@@ -12,7 +12,7 @@
   <h1></h1>
   <script type="text/javascript">
     //var message = fetch('/motd')
-    featch('/motd').then(function(response) {
+    fetch('/motd').then(function(response) {
       response.text().then(function(message) {
         document.querySelector('h1')
           .textContent = message
